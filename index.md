@@ -1,16 +1,68 @@
 ---
 layout: default
 ---
-
+<h1>./issk.sh 2>/dev/null</h1>
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+```
+Bienvenidos a mi página de apuntes autodidácticos, esta página 
+no está creada con intención de ser pública a pesarde tener soporte
+como una página de dominio procedente de github.io, sin embargo 
+sí que se creó con la intención de ser una web de repaso que pudiera
+ver desde cualquier parte y dispositivo.
 
-# Header 1
+Si descubriste esta página y te apasiona la ciberseguridad espero 
+que te sirvan de algo mis apuntes.
+```
+<h2>Apuntes:</h2>
+
+[Cifrado](./another-page.html)
+
+[CommandSystem](./another-page.html)
+
+[Compiladores](./another-page.html)
+
+[Compresores](./another-page.html)
+
+[Conceptos](./another-page.html)
+
+[Debugging](./another-page.html)
+
+[EscalPriv](./another-page.html)
+
+[ExploitError](./another-page.html)
+
+[Games](./another-page.html)
+
+[Headers](./another-page.html)
+
+[Herramientas](./another-page.html)
+
+[Programacion](./another-page.html)
+
+[Mobile](./another-page.html)
+
+[Remoto](./another-page.html)
+
+[Servicios Web](./another-page.html)
+
+[Sites Web](./another-page.html)
+
+[SQL](./another-page.html)
+
+[Vulnerabilidades](./another-page.html)
+
+[Windows](./another-page.html)
+
+[Wrappers](./another-page.html)
+
+[Transferencia de zona](./another-page.html)
+
+
+
+# Metodologia
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
