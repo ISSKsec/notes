@@ -8,7 +8,7 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 ```
 Bienvenidos a mi página de apuntes autodidácticos, esta página 
-no está creada con intención de ser pública a pesarde tener soporte
+no está creada con intención de ser pública a pesar de tener soporte
 como una página de dominio procedente de github.io, sin embargo 
 sí que se creó con la intención de ser una web de repaso que pudiera
 ver desde cualquier parte y dispositivo.
