@@ -210,7 +210,7 @@ es no tener conocimiento de como está configurada la red, si tiene reglas de fi
 que podemos usar desde dicho equipo/usuario, en caso de querer realizar una busqueda de hosts en la red o inclusive en otro
 segmento de red, podriamos hacer uso de algún binario estático como el de nmap, pero si la red es restrictiva a la hora de 
 transferir archivos esta idea esta descartada por completo, sin embargo existe una manera relativamente sencilla para 
-el descuvrimiento de hosts y puertos, esta es craer un script en bash con la siguiente estructura, en lo personal es 
+el descubrimiento de hosts y puertos, esta es craer un script en bash con la siguiente estructura, en lo personal es 
 mi primera opción, por la sencillez de la sintaxis de este mismo y velocidad de escaneo que realiza.
 
 ### Decubrir puertos de un equipo:
