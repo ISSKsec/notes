@@ -19,21 +19,6 @@ que te sirvan de algo mis apuntes.
 <h2>Apuntes:</h2>
 
 
-| 1ª Fila        | 2ª Fila          
-|:-------------|:------------------|:------|
-| [Cifrado](./cifrado.html)           | [Comandos del Sistema](./another-page.html) 
-| [Compiladores](./compiladores.html)      | [Compresores](./another-page.html)          
-| [Conceptos](./conceptos.html)         | [Debugging](./another-page.html)            
-| [Escalar privilegios](./another-page.html)|[ExploitError](./another-page.html)         
-| [Games](./another-page.html)             | [Headers](./another-page.html)
-| [Herramientas](./another-page.html)      | [Programacion](./another-page.html)
-| [Mobile](./another-page.html)            | [Remoto](./another-page.html)
-| [Servicios Web](./another-page.html)     | [Sites Web](./another-page.html)
-| [SQL](./another-page.html)               | [Vulnerabilidades](./another-page.html)
-| [Windows](./another-page.html)           | [Wrappers](./another-page.html)
-| [Transferencia de zona](./another-page.html)|
-
-
 # Metodologia
 
 ### Paso1
