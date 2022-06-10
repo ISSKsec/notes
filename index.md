@@ -252,15 +252,15 @@ for host in ${hosts[@]}; do
 done
 ```
 ----------------------------------------------------------
-# Truco para variables de PHP en la URL (SSRF)
-En caso de no poder ver el contenido de una variable de una página, prueba a 
-poner la variable detras de otra variable.
+# Truco para parametros de PHP en la URL (SSRF)
+En caso de no poder ver el contenido de un parametro de una página, prueba a 
+poner el parametro detras de otro parametro.
 Realmente esto ocurre gracias a una falla de SSRF mediante la cual se exponen
 los servicios abiertos internamente de la maquina victima, tenemos que tener en cuenta
-que los recursos que son accesibles mediante este puerto filtrado solo seran accesibles
+que los recursos que son accesibles mediante este puerto filtrado solo serán accesibles
 por este puerto, con lo cual si al hacer hovering encima del recurso mostrado en la web vemos
 otra dirección debido al uso de otro puerto, lo normal es que pongamos el parametro correspondiente 
-donde se esta generando la vulnerabilidad de SSRF para seguir la busqueda
+donde se esta generando la vulnerabilidad de SSRF para seguir la busqueda.
 
 Quedaria asi la url en un hipotético caso de darse dicho problema:
 
