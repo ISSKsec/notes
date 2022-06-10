@@ -237,7 +237,7 @@ for host in ${hosts[@]}; do
         done; wait
 done
 ```
-### Descubrimiento total de puertos equipos existentes y puertos abiertos en una red "No recomendable"
+### Descubrimiento total de equipos existentes y sus respectivos puertos abiertos en una red "No recomendable"
 ```bash
 hosts=(172.17.0 172.18.0 172.19.0)
 for host in ${hosts[@]}; do    
