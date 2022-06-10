@@ -166,8 +166,9 @@ lo decodeamos de hexadecimal a ascii text.
 
 En python se haría de esta manera, le pasamos la cadena decimal y la encodeamos en hexadecimal
 para posteriormente decodearla a ascii text.
-
+```python
 hex(24604052029401386049980296953784287079059245867880966944246662849341507003750)[2:].decode("hex")
+```
 Se utiliza [2:] Para quitarle los valores de los prefijos 0x
 > Esta forma quizá este obsoleta
 
