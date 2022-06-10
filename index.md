@@ -110,7 +110,7 @@ recordemos fijarnos en el path de los procesos para un posible path hijacking o 
 hacer library hijacking desde python en caso de utilizarse una libreria en un script .py.
 
 ### Estas son unas páginas muy buenas para hacer un repaso a la hora de hablar de escalada de privilegios y vulnerabilidades web.
-[hacktricks](https://book.hacktricks.xyz/linux-unix/privilege-escalation/)
+[hacktricks](https://book.hacktricks.xyz/welcome/readme)
 
 [GTFOBins](https://gtfobins.github.io/)
 
