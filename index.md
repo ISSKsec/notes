@@ -173,7 +173,6 @@ test = hex(246040520294013860499802969537842870790592458678809669442466628493415
 bytes.fromhex(test).decode('utf-8')
 ```
 Se utiliza [2:] Para quitarle los valores de los prefijos 0x
-> Esta forma quizá este obsoleta
 
 En dado caso simplemente podemos buscar un conversor online.
 
