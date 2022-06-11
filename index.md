@@ -34,9 +34,9 @@ que te sirvan de algo mis apuntes.
 | [Transferencia de zona](./another-page.html)|
 
 
-# Metodologa
+# Metodología
 
-### Paso1
+### Paso 1
 
 Primero lo que haremos es establecernos un entorno para poder trabajar, tener directorios específicos para el trabajo y las herramientas 
 necesarias para el inicio del proceso.
@@ -56,7 +56,7 @@ lo que le has puesto te saldra esto Ncat: Broken pipe. Si no encontramos nada
 lo suyo sería buscar en hacktricks y payloadsallthethings
 
 
-### Paso2 (Fijate en el wappalizer)
+### Paso 2 (Fijate en el wappalizer)
 
 
 Tras saber si tiene alguna vulnerabilidad o no en los servicios nos aprovecharemos de ella en caso de que exista, después tendremos que acceder a la página y
@@ -163,7 +163,14 @@ lo decodeamos de hexadecimal a ascii text.
 En python se haría de esta manera, le pasamos la cadena decimal y la encodeamos en hexadecimal
 para posteriormente decodearla a ascii text.
 ```python
+#!/usr/bin/python3
+#Esto te dará un error
 hex(24604052029401386049980296953784287079059245867880966944246662849341507003750)[2:].decode("hex")
+
+#Manera correcta, guardamos en una variable el contenido del decimal codificado a hexadecimal
+test = hex(24604052029401386049980296953784287079059245867880966944246662849341507003750)[2:]
+#Decodificamos:
+bytes.fromhex(test).decode('utf-8')
 ```
 Se utiliza [2:] Para quitarle los valores de los prefijos 0x
 > Esta forma quizá este obsoleta
