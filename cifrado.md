@@ -116,11 +116,6 @@ En cyberChef se puede jugar con esto.
 Tambien desde aqui se puede aplicar fuerza bruta.
 
 #### Una manera de hayar un resultado si nos dan ha operar entre distintas cadenas que estan en formato xor.
-- c249e41fc6ee70a6c72d0441360cd7714f56b95f08edfce23e
-
-- fb9c2b4b0b07422617884a2ac6e4ea4cbf72563bd55b33894b
-
-- 7d9d9b16b6b15df288ca3c339f9a7b489e629a0a9bc3a1167f
 
 ```python
 import os
