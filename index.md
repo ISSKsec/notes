@@ -34,7 +34,7 @@ que te sirvan de algo mis apuntes.
 | [Transferencia de zona](./another-page.html)|
 
 
-# Metodologia
+# Metodologa
 
 ### Paso1
 
@@ -129,10 +129,6 @@ que solo tenemos que encontrar la contraseña, incluso si nos fijamos
 el correo obtenido encaja como usuario para el dominio, también filtrado
 por el certificado SSL.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
 ## Comammando VM
 
 Es una implementación que se le añade a los sistemas operativos
@@ -222,6 +218,7 @@ done; wait
 
 ### Descubrir ssh en multiples hosts:
 ```bash
+#!/bin/bash
 hosts=(172.17.0.1 172.18.0.2 172.18.0.1 172.18.0.100 172.18.0.102 172.18.0.101 172.19.0.3 172.19.0.2 172.19.0.1)
 for host in ${hosts[@]}; do
                  timeout 1 bash -c "echo '' >/dev/tcp/$host/22" &>/dev/null && echo "Tiene ssh abierto: $host" &
@@ -230,6 +227,7 @@ done; wait
 
 ### Descubrir en distintos segmentos de red los hosts conectados.
 ```bash
+#!/bin/bash
 hosts=(172.17.0 172.18.0 172.19.0)
 for host in ${hosts[@]}; do
         for last in $(seq 1 256); do
@@ -239,6 +237,7 @@ done
 ```
 ### Descubrimiento total de equipos existentes y sus respectivos puertos abiertos en una red "No recomendable"
 ```bash
+#!/bin/bash
 hosts=(172.17.0 172.18.0 172.19.0)
 for host in ${hosts[@]}; do    
         for last in $(seq 1 256); do
