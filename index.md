@@ -211,6 +211,7 @@ mi primera opción, por la sencillez de la sintaxis de este mismo y velocidad de
 
 ### Decubrir puertos de un equipo:
 ```bash
+#!/bin/bash
 for port in $(seq 1 65535) ; do
         timeout 1 bash -c "echo ' ' >/dev/tcp/10.10.10.235/$port" &>/dev/null && echo "Este puerto esta abierto $port" & 
 done; wait
