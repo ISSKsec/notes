@@ -47,7 +47,7 @@ tipos :cbc, ctr, cfb etc...
 [Variables del cifrado](https://laseguridad.online/questions/4293/cuales-son-las-variables-de-aes)
 
 
-## Cifrado Cesar y variante ROT13
+### Cifrado Cesar y variante ROT13
 
 Este cifrado es muy usado debido a su sencillez, en muchos
 casos no podemos usar técnicas de cifrado complejas y acabamos
@@ -62,7 +62,7 @@ del abecedario.
 
 Existe un cifrado más avanzado, este es el vigenere.
 
-## vigenere 
+### vigenere 
 El cifrado Vigenère es un cifrado basado en diferentes series de 
 caracteres o letras del cifrado César formando estos caracteres 
 una tabla, llamada tabla de Vigenère, que se usa como clave. El 
@@ -101,7 +101,7 @@ for i in range(len(plaintext)):
 print(key)
 ```
 
-## XOR
+### XOR
 Es un algoritmo de cifrado, que tiene una caracteristica muy 
 especial, esta es que la key se repite varias veces cuando 
 descifras la cadena.
