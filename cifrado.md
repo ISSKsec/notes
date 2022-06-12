@@ -156,6 +156,10 @@ xor también se interpretra entre variables con ^ en lenguajes de programación.
 variable1 ^ variable2 
 #### En la lógica de xor si dos archivos encriptados se xorean da como resultado un archivo desencriptado, ya que será igual a 0
 
+### RSA 
+
+La criptografía RSA es un cifrado asimétrico que se utiliza en muchos ámbitos de la transmisión de datos en Internet por su facilidad de uso. Este sistema consta de una clave RSA pública y otra privada. La clave pública se utiliza para el cifrado y la privada para el descifrado. Como no hay ningún algoritmo que pueda determinar la clave privada a partir de la clave pública, el procedimiento se considera seguro. Además del cifrado, el sistema de la criptografía RSA también sirve para generarfirmas digitales.
+
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
