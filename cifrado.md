@@ -118,6 +118,7 @@ Tambien desde aqui se puede aplicar fuerza bruta.
 #### Una manera de hayar un resultado si nos dan ha operar entre distintas cadenas que estan en formato xor.
 
 ```python
+#!/usr/bin/python3
 import os
 
 def bxor(ba1, ba2):
