@@ -22,7 +22,7 @@ que te sirvan de algo mis apuntes.
 | 1ª Fila        | 2ª Fila          
 |:-------------|:------------------|:------|
 | [Cifrado](./cifrado.html)           | [Comandos del Sistema](./commandsys.html) 
-| [Compiladores](./another-page.html)      | [Compresores](./another-page.html)          
+| [Compiladores](./compiladores.html)      | [Compresores](./another-page.html)          
 | [Conceptos](./another-page.html)         | [Debugging](./another-page.html)            
 | [Escalar privilegios](./another-page.html)|[ExploitError](./another-page.html)         
 | [Games](./another-page.html)             | [Headers](./another-page.html)
