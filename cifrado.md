@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>./issk.sh 2>/dev/null &;disown</h1>
 ## Apuntes: Tipos de cifrados
-
+--------------------------------------------------------------------
 Los dos tipos principales de cifrado son el cifrado simétrico y el cifrado asimétrico. 
 - `Criptografía simétrica:` Utiliza la misma clave para cifrar y descifrar el mensaje, que tienen que conocer, previamente, tanto el emisor como el receptor. 
 - `Criptografía asimétrica:` Se basa en el uso de dos claves.
