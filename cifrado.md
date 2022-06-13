@@ -112,7 +112,7 @@ del resultado de la cadena descifrada, por ejemplo si sabes que empieza
 por per* o cualquier otra cosa, lo colocas como key y se descifra entero, probablemente veas una cadena que
 se repita varias veces, utiliza esa cadena como key y tendras el resultado final.
 
-En cyberChef se puede jugar con esto. 
+En [cyberChef](https://gchq.github.io/CyberChef/) se puede jugar con esto. 
 Tambien desde aqui se puede aplicar fuerza bruta.
 
 #### Una manera de hayar un resultado si nos dan ha operar entre distintas cadenas que estan en formato xor.
