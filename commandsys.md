@@ -172,6 +172,14 @@ mount -t nfs 10.10.10.10:var/ /tmp/var
 Si utilizamos mount sin parametros nos desplegara un registro de información, con muchas rutas, desde aquí se filtra
 mucha información sobre monturas ya creadas.
 
+Existe una función para aislar los procesos de los usurios entre ellos
+y para comprobar si esta habilida, solo tenemos que ejecutar el comando
+mount
+
+Nos saldran las rutas, pero en proc te mostrara un atributo llamado hidepid=2
+en caso de que esté, se estaran aislando los procesos entre usuarios.
+
+
 ### pacman
 Es un gestor de paquetes 
 instalas con pacman -S y actualizas con -U, actualizas paquetes al igual
