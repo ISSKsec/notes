@@ -1079,6 +1079,13 @@ rutas del sistema almacena diversos scripts que se autoejecutan
 son crontabs, con lo cual es una buena ruta para crear un script
 que sera ejecutado por un usuario.
 
+/etc/crontab
+
+Puedes ver si hay algun crontab definido, a diferencia de cron.d 
+que es para ver los script crontabs, este es un archivo que te 
+indica los crontabs del sistema y su funcion.
+
+
 **arquitectura**
 
 /etc/os-release 
