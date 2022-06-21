@@ -378,6 +378,10 @@ Es una variable en una cadena de json web tokens que se representa con
 {"exp":"12323132"} representa el tiempo para una validacion de esta cadena
 que se utilizará como cookie session.
 
+## Fail2ban
+
+Fail2ban es una aplicación escrita en Python para la prevención de intrusos en un sistema,
+que actúa penalizando o bloqueando las conexiones remotas que intentan accesos por fuerza bruta.
 
 ## FQDN
 
