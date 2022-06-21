@@ -14,7 +14,7 @@ sí que se creó con la intención de ser una web de repaso que pudiera
 ver desde cualquier parte y dispositivo.
 
 Si descubriste esta página y te apasiona la ciberseguridad espero 
-que te sirvan de algo mis apuntes.
+que te sirvan de algo mis apuntes en caso contrario RTFM.
 ```
 <h2>Apuntes:</h2>
 
