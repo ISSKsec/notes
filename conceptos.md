@@ -789,7 +789,17 @@ di no este no te funcionara, en muchso casos es sencillo porque la maquina victi
 tiene abierto el puerto de ntp, y podemos sincronizarlo mediante un script pero
 en otros casos tendremos que cambiar nuestra propia hora con date
 
+## pam.d 
 
+Los módulos de autenticación conectables de Linux son un conjunto de bibliotecas que permiten al administrador del sistema Linux configurar métodos para autenticar a los usuarios.
+
+Advertencia: Los cambios en la configuración de PAM afectan fundamentalmente a la autenticación del usuario. Los cambios erróneos pueden dar como resultado que ningún usuario pueda iniciar sesión, o todos los usuarios pueden iniciar sesión.
+
+Ruta: /etc/pam.d/
+
+En caso de que las autenticaciones tengan un funcionamiento raro, es recomendable
+revisar esta ruta. En busca de librerias.so que tengan nombres personalizados, que
+no encajen.
 
 ## PDO
 
@@ -1095,6 +1105,18 @@ indica los crontabs del sistema y su funcion.
 /etc/os-release 
 
 Es una ruta del sistema que te muestra la arquitectura de la maquina.
+
+**puertos**
+
+/proc/net/tcp
+
+echo "E2D3
+EDK3
+F434
+G3H5
+J7R5" | while read port; do echo "Puerto: $(echo "obase=10; ibase=16; $port" | bc)" ; done
+
+Para ver los puertos, pero tras hacer un calculo con dicho filtro.
 
 
 ## salt
