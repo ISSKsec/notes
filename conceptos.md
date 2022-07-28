@@ -204,6 +204,24 @@ en muchos casos tras añadir este parametro con un valor cualquiera
 te habilita mandar data en el parametro que interprete el php.
 Incluso añadir funciones.
 
+## DiskVHD            
+Para cargar un disco duro virtual en tu maquina real, utilizamos modulos de sistema.
+
+`sudo modprobe nbd`
+
+`sudo apt install qemu-utils`
+
+Utilizamos el primero modulo generado por modprobe
+
+Cargamos el modulo nbd en el archivo vhd, el cual es un archivo de disco duro virtual
+un backup de todo el sistema que queremos cargar.
+
+`sudo qemu-nbd -r -c /dev/nbd0 "/mnt/smb/WindowsImageBackup/L4mpje-PC/Backup 2019-02-22 124351/9b9cfbc3-369e-11e9-a17c-806e6f6e6963.vhd"`
+
+Por ultimo creamos una montura con el modulo que nos cargo que al usar mbd0 se crea mbd0p1
+
+`mount /dev/nbd0p1 /mnt/smb`
+
 
 ## Bypassear funciones deshabilitada de PHP.
 
