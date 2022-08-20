@@ -179,7 +179,16 @@ mount
 Nos saldran las rutas, pero en proc te mostrara un atributo llamado hidepid=2
 en caso de que esté, se estaran aislando los procesos entre usuarios.
 
+Una herramienta para montar servidores ftp:
 
+```bash 
+curlftpfs ftp://10.10.10.152 /mnt/test
+#Creamos de esta manera la montura con ftp anonimo
+
+
+sudo mount -t cifs //10.10.10.134/Backups /mnt/smb
+#Creamos una montura con smb
+```
 ### pacman
 Es un gestor de paquetes 
 instalas con pacman -S y actualizas con -U, actualizas paquetes al igual
