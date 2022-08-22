@@ -708,6 +708,11 @@ que contienen informacion de los usuarios , para conseguir esta informacion usar
 una herramienta que extraera los hashes de dos archivos un .dit y otro .bin para 
 posteriormente ser crackeados.
 
+## nullBytes 
+Es una manera de evadir la data que continua en la injeccion
+correspondiente, se suele utilzar en url.
+Funciona para versiones inferiores a  la 5.3 de php
+
 ## oauth2
 
 Este es un servicio que para su funcionamiento o logeo
