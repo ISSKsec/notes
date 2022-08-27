@@ -106,10 +106,22 @@ kubectl get pod -n dev #dev es un namespaces.
 kubectl get secrets -n dev
 
 #Ver la información del pod te enseñara otro contenedor lo más probable.
-kubect  describe pod/devnode-deployment-776dbcf7d6-ld62v -n dev
-kubect  describe secret/admin-adpc -n dev
+kubectl  describe pod/devnode-deployment-776dbcf7d6-ld62v -n dev
+kubectl  describe secret/admin-adpc -n dev
 ```
 -n = namesaces
+
+En caso de querer listar recursos de una api tendremos que utilizar la flag
+
+-s 
+
+Ejemplo:
+
+kubectl -s https://10.10.11.133:8443 --certificate-authority=ca.crt --token="eyJhbGciOiJSUzI1NiIsImtpZCI6Ilp0akKWmsifQ.eyJhdmF1bHQuc3ZjLmNsdXN0ZXIubG9jYWwiXSwiZXhwIjoxNjkxNzI3ODk4LCJpYXQiOjE2NjAxOTE4OTgsImlzcyI6Imh0dHBzOi8va3ViZXJuZXRlcy5kZWZhdWx0LnN2Yy5jbHVzdGVyLmxvY2FsIiwia3ViZXJuZXRlcy5pbyI6eyJuYW1lc3BhY2UiOiJkZWZhdWx0IiwicG9kIjp7Im5hbWUiOiJuZ2lueCIsInVpZCI6IjdhMTFlNmQ2LTJkMTQtNDYyYy05MmRlLTJiNjljNmExZGU3ZSJ9LCJzZXJ2aWNlYWNjb3VudCI6eyJuYW1lIjoiZGVmYXVsdCIsInVpZCI6ImMwYjRjOTliLWQwZmYtNGExZC05NjJkLWVkM2IwYzJmMWE1NCJ9LCJ3YXJuYWZ0ZXIiOjE2NjAxOTU1MDV9LCJuYmYiOjE2NjAxOTE4OTgsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmRlZmF1bHQifQ.WAyhMEaKqtVS136vafXYeNnXObOrvTZSICy-sDQpIwBzOeD0gpZxJuAnfsar3ltXpHcMl3zdhT8my2TgXEkCXTysFTj9X47i3OPzzC2aZHQucm9Q7HqcmCEndQ_cuWH7NHwTTGVZin2exK589ZFPi6XskrlUd-9GD_aNgdKNoEqaPzsDyyHjkNU-626-1q6cs7NTWTJQnjlVt7zApPUa-YLiHEiAsrhS4sB9YcLOdgQUe6SsgFJwTouCvjxvfPPKpbC9KU4RXKPGahA8adZ8zkf6BKsBTqCpwz1tNPDB-LPhPMi-65gtEMOGIdZrYgx2bG2
+Aezjnj77vLyendmj0UA" auth can-i --list
+
+--list te informara de todo lo que puedes listar.
+
 
 Existe una vulnerabilidad que te permite crear un `pod` malicioso 
 mediante un archivo yaml como el siguiente solo que para ello
