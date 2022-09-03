@@ -918,6 +918,19 @@ if __name__ == '__main__':
 #Lanzamos la traza icmp xxd desde el RCE
 ```
 
+## SeLinux 
+Antes de nada, debemos informarnos bien de qué es SELinux. A modo de resumen podríamos decir que es un módulo de seguridad 
+que permite establecer políticas de seguridad para el control de acceso.
+
+De un modo más práctico y para entenderlo mejor, podríamos decir que con SELinux preguntamos al núcleo de Linux si un 
+proceso está autorizado para realizar una operación.
+
+## shebang 
+Shebang es, en la jerga de Unix, el nombre que recibe el par de caracteres #! 
+que se encuentran al inicio de los programas ejecutables interpretados. 
+En algunas ocasiones se le denomina también hash-bang o sharpbang.
+
+
 ## Port Knock
 
 El demonio de knock es un proceso que oculta un puerto o cierra este puerto con tal de
@@ -1141,6 +1154,11 @@ J7R5" | while read port; do echo "Puerto: $(echo "obase=10; ibase=16; $port" | b
 
 Para ver los puertos, pero tras hacer un calculo con dicho filtro.
 
+**Procesos**
+
+proc/12"pid"/cmdline 
+
+Esta ruta informa de los procesos identificados por los "pid".
 
 ## salt
 
