@@ -187,6 +187,15 @@ kubeletctl -s 10.10.11.133 -c nginx -p nginx exec "bash"
 kubeletctl -s 10.10.11.133 -c nginx -p nginx exec "ls /run/secrets/kubernetes.io/serviceaccount/"
 ```
 
+RutasKuber  
+En estas rutas se encuentran los token y los certificados ca.crt.
+
+/run/secrets/kubernetes.io/serviceaccount/
+
+/secrets/kubernetes.io/serviceaccount/ 
+
+/var/run/secrets/kubernetes.io/serviceaccount/
+
 ### loadkeys
 Es para cambiar momentaneamente la asignación del idioma del teclado
 `loadkeys es`
