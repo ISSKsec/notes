@@ -88,6 +88,18 @@ go get te permite añadir una dependencia hecha en go y la instalaría inmediata
 Con go run podemos ejecutar un programa go no compilado. 
 go run file.go
 
+## i686-w64-mingw32-gcc
+
+Cross compiler, lo que quiere decir es que se puedes realizar una 
+compilacion de un script que se ejecutara en una plataforma como windows 
+como puede ser un .exe en linux u otra plataforma. 
+
+```bash
+i686-w64-mingw32-gcc text.c -o exploit -lws2_32
+```
+
+Este programa es un cross compiler
+
 ## javac
 Es un compilador de java.
 

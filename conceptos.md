@@ -264,6 +264,26 @@ Solucion:
 http://10.10.10.62:4/index.php?page=../../:./etc/passwd%00
 
 
+## Caja Negra
+
+Se un término ampliamente utilizado para refererise a un entorno del cual el pentester no tiene conocimientos previos
+con lo cual a la hora de hacer la prueba de penetracion parte sin información previa.
+
+## CIDR
+
+Este protocolo permite un uso más eficiente de las cada vez más escasas 
+direcciones IPv4. CIDR usa máscaras de subred de longitud variable (VLSM) 
+para asignar direcciones IP a subredes de cuerdo a las necesidades de cada subred. 
+
+
+Es el numero ubicado detras de la direccion ip de la red, el cual indica
+la cantidad de hosts disponibles en esa red, dicha representación va precedida
+por la mascara de red.
+
+
+192.168.1.0/24 <- CIDR de mascara 255.255.255.0 
+
+255 HOSTS disponibles contando direccion de red, broadcast y puerta de enlace.
 
 ## docker
 
